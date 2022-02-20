@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+.input{
+width:300px;
+height:30px;
+}
+.button{
+width:80px;
+height:28px;
+border-radius:10px;
+}
+.cancel1{
+width:80px;
+height:28px;
+border-radius:10px;
+text-align: center;
+background-color: red;
+}
+</style>
+</head>
+<body style="text-align:center;margin:80px;background-color:#d6e4a6;">
+<div>
+<form>
+<h1 style="font-family:Arial;">Contact Form</h1>
+<input class="input" type="text" placeholder="Enter Your First Name" required><br><br>
+<input class="input" type="text" placeholder="Enter Your Last Name"><br><br>
+<input class="input" type="email" placeholder="Enter Your Email Address" required><br><br>
+<input class="input" type="text" placeholder="Contact Number"><br><br>
+<label style="font-family:Arial;" >Select Gender:</label>
+<input type="radio" id="gender" value="Male" name="gender"><label for="gender" style="font-family:Arial;">Female</label>
+<input type="radio" id="gender" value="Female" name="gender"><label for="gender" style="font-family:Arial;">male</label><br><br>
+<label for="bday" style="font-family:Arial;">Date of Birth:</label>
+<input type="date" id="bday" name="birthdate" required><br><br>
+<input type="checkbox" id="check "name="check">I have read all terms and conditions<br><br>
+<input class="button" type="Submit" style="background-color:#3db156;color:white;"> 
+ <input class="cancel1" type="text" placeholder="cancel">
+</form>
+</div>
+</body>
+</html>
